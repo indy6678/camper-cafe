@@ -15,6 +15,10 @@ body {
     /* center using margin */
     margin-left: auto;
     margin-right: auto;
+    /* add same space between content and sides, top and bottom */
+    padding: 20px;
+    /* set max width */
+    max-width: 500px;
 }
 
 .flavor, .dessert {
