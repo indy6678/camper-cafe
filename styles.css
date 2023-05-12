@@ -3,9 +3,10 @@ h1,p,h2 {
 }
 
 body {
-    background-color: burlywood;
+    
 }
 
 div {
     width: 300px;
+    background-color: burlywood;
 }
