@@ -3,10 +3,16 @@ h1,p,h2 {
 }
 
 body {
+    /* add background image */
+    background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
     
 }
 
-div {
-    width: 300px;
+.menu {
+    /* added width as a % of parent */
+    width: 80%;
     background-color: burlywood;
+    /* center using margin */
+    margin-left: auto;
+    margin-right: auto;
 }
