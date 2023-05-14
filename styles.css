@@ -39,7 +39,7 @@ body {
   display: inline-block;
   margin-top: 5px;
   margin-bottom: 5px;
-  font-size: 18px
+  font-size: 18px;
 }
 
 /* added different font, setting serif as a fallback */
@@ -64,36 +64,40 @@ h2 {
 }
 
 hr {
-    height: 2px;
-    background-color: brown;
-    border-color: brown;
+  height: 2px;
+  background-color: brown;
+  border-color: brown;
 }
 
 .bottom-line {
-    margin-top: 25px;
+  margin-top: 25px;
 }
 
 /* Footer */
 
 footer {
-    font-size: 14px;
+  font-size: 14px;
 }
 
 a {
-    color: black;
+  color: black;
 }
 
 /* add pseudo-selector when action taken */
 a:visited {
-    color: black;
-  }
+  color: black;
+}
 
 /* add pseudo-selector for hover */
 a:hover {
-    color: brown;
+  color: brown;
 }
 
 /* add pseudo-selector for link when being clicked */
 a:active {
-    color: brown;
-  }
+  color: brown;
+}
+
+.address {
+  margin-bottom: 5px;
+}
